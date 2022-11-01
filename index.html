@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=DotGothic16&family=Faster+One&family=Libre+Barcode+39&family=Michroma&family=Noto+Sans+KR&family=Orbitron:wght@400;900&family=Press+Start+2P&family=Wallpoet&display=swap" rel="stylesheet">
+	<title>TimeMachine</title>
+	<style type="text/css">
+		body{margin: 0;
+			padding: 0;
+			background: black;
+			display: flex;
+			flex-wrap: wrap;}
+		#container{background: black;
+			width: 100vw;
+			height: 100vh;
+			margin: 0;
+			padding: 0;
+			}
+		#title{height: 15vh;
+				background: black;
+				font-size:60px ;
+				font-family: 'Michroma', sans-serif;
+				padding-left: 15vw;
+				line-height: 220px;
+				color: white;
+				}
+		#secondContainer{height: 80vh;
+			background: black;
+			display: flex;}
+		#left{width: 15vw;
+			background: black;}
+		#right{width: 15vw;
+			background: black;}
+		#thirdContainer{width: calc(100% - 30vw);
+			background: black;}
+		#top{height: 20%;
+			background: black;
+			display: flex;}
+		#intro{width: 70%;
+			background: greenyellow;
+			margin: 5px;
+			font-family: 'Noto Sans KR', sans-serif;
+			padding-left: 20px;
+			padding-top: 20px;
+			font-size: 30px;
+			}
+		#charge{width: 30%;
+			background: greenyellow;
+			margin: 5px;}
+		#middle{height: 60%;
+			background: black;
+			display: flex;}
+		#timeDisplay{width: 100%;
+			background: greenyellow;
+			margin: 5px;}
+		#bottom{height: 20%;
+			background: black;
+			display: flex;}
+		#myYear{width: 33.3%;
+			background: greenyellow;
+			margin: 5px;}
+		#myMonth{width: 33.3%;
+			background: greenyellow;
+			margin: 5px;}
+		#myDay{width: 33.3%;
+			background: greenyellow;
+			margin: 5px;}
+	</style>
+</head>
+<body>
+    <div id="container">
+    	<div id="title">Time Machine.</div>
+    	<div id="secondContainer">
+    		<div id="left"></div>
+    		<div id="thirdContainer">
+    			<div id="top">
+    				<div id="intro"> 시간을 돌릴 수 있다면,<br>
+    				 가장 돌아가고 싶은 순간은 언제인가요?</div>
+    				<div id="charge"></div>
+    			</div>
+    			<div id="middle">
+    				<div id="timeDisplay"></div>
+    			</div>
+    			<div id="bottom">
+    				<div id="myYear"></div>
+    				<div id="myMonth"></div>
+    				<div id="myDay"></div>
+    			</div>
+    		</div>
+    		<div id="right"></div>
+    	</div>
+    </div>
+
+	<script type="text/javascript"></script>
+</body>
+</html>
